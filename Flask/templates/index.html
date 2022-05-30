@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title> Forecast Commuters Inflow </title>
+    <link rel="stylesheet" href="C:\Users\Hari\Documents\Forecast Commuters Inflow for Airline Industry using IBM Cloud Services\Flask\static\styles.css">
+  </head>
+  <body background = "forecast_site.jpeg">
+    <h2>Forecast Commuters Inflow for Airline Industry</h2>  
+   <p style = "text-align: center;font-style: bold; ">The dataset consists of monthly totals of international airline passengers , 1949 to 1960.</p>
+    <p> Here we predict the commutor flow in thousands using prophet library</p>
+  <div class="login">
+<form action = "/login" method = "post">
+<p>Enter the year</p>
+<p> <input type = "text" name = "yr" /></p>
+<p>Enter the month</p>
+<p> <input type = "text" name = "mn" /></p>
+<p>Enter the day</p>
+<p> <input type = "text" name = "dy" /></p>
+<button type="submit" class="btn btn-primary btn-block btn-large">Submit</button>
+</form>
+<br>
+   <b>{{value}}</b>
+   <div>
+  </body>
+</html>
