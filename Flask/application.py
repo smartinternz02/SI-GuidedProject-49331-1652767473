@@ -10,7 +10,7 @@ from flask import Flask, request, jsonify, render_template
 import joblib
 from tensorflow.keras.models import load_model
 
-model=load_model('airpassengers.h5')
+model=load_model('Passengers.h5')
 sc=joblib.load('scaler')
 
 app = Flask(__name__)
