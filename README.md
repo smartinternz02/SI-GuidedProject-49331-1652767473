@@ -4,7 +4,6 @@ type model and is a part of our project submission for the Artifial Intelligence
 
 
 # Demo Video Link
-https://drive.google.com/file/d/1jnwnVBo9lHJ6tCCduJrUieoO_DLGuAE_/view?usp=sharing
 
 # Dataset
 Uploaded in the dataset folder
